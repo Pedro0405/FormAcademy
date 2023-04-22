@@ -110,7 +110,7 @@ namespace AcademyForm
         {
             if (globais.logado)
             {
-                if (globais.acesso < 3) 
+                if (globais.acesso < 2) 
                 { 
                 GerenciarClientes novo = new GerenciarClientes();
                 novo.ShowDialog();
